@@ -1,0 +1,58 @@
+# IDEs
+.idea/
+.vscode/
+.classpath
+.project
+.settings/
+.directory
+
+# Maven
+target/
+pom.xml.versionsBackup
+pom.xml.tag
+pom.xml.next
+pom.xml.releaseBackup
+release.properties
+dependency-reduced-pom.xml
+# Si tienes algún JAR/WAR/EAR generado directamente en la raíz que no debe ser rastreado
+# *.jar
+# *.war
+# *.ear
+
+# Archivos de logs
+*.log
+logs/
+nohup.out
+
+# Archivos de configuración locales (que no deben ir al repositorio)
+# Por ejemplo, si tienes archivos de propiedades con credenciales
+# application.properties.local
+# database.properties
+# .env
+# Si usas Spring Boot y autogeneras properties para diferentes perfiles, considera ignorar los específicos de desarrollo
+# application-dev.properties
+# application-test.properties
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Archivos de depuración y temporales
+*.class
+*.bak
+*.swp
+*~
+*.tmp
+# Archivos de cobertura de código
+*.exec
+*.ser
+
+# Reportes de pruebas (Maven Surefire/Failsafe)
+surefire-reports/
+failsafe-reports/
+
+# Archivos de caché del proyecto
+.project_cache/
+.mvn/wrapper/maven-wrapper.jar # Si usas Maven Wrapper, NO ignores maven-wrapper.properties
+.mvn/wrapper/maven-wrapper.properties # Normalmente, DEBE ser rastreado
